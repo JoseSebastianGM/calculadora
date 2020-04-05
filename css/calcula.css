@@ -1,0 +1,75 @@
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { 
+    border: 3px black solid; 
+    width: 400px;
+    text-align: center;
+    background-color: #380041;
+
+    position: absolute;
+    top:25%;
+    left:51%;
+    margin-left:-200px;
+    margin-top:-150px;
+    padding:5px;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+.textoPantalla { 
+    width: 351px;
+    height: 150px; 
+    border: 2px black solid; 
+    text-align: right;
+    position: relative; 
+    left: 18px;  
+    padding: 5px 5px;
+    background-color: #2e2e2e; 
+    overflow: hidden;
+    font-size: 25px;
+    font-family: "arial", serif;
+    color: white;
+    line-height: 10px;
+    
+}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { 
+    width: 70px;
+    height: 70px; 
+    padding: 0; 
+    border: 2px black solid;
+    background-color: #000241; 
+    font-size: 20px;
+    font-family: "arial", serif;
+    color: white;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+}
+/*botones especiales*/
+.calculadora input.largo { 
+    color: #dadada; 
+    width: 120px;
+    height: 40px;
+    background-color: #190041; 
+    
+}
+
+body{
+    background-color: #1a1a1a;
+    
+}
+
+.calculadora input.cientifica{
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color: #dadada; 
+    width: 70px;
+    height: 40px;
+    background-color: #390101;
+    font-size: 19px;
+}
